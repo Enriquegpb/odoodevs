@@ -9,4 +9,4 @@ Ahora tenemos que modifcar los ficheros __manifest.py models.py y views.xml que 
 ## Desarrollo de los ficheros __manifest.py models.py y views.xml
 
 ### __manifest.py
-
+![](Imagenes%20README/manifest.png)
