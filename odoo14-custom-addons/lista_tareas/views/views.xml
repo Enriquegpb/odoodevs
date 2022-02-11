@@ -8,6 +8,7 @@
       <field name="model">lista_tareas.lista_tareas</field>
       <field name="arch" type="xml">
         <tree>
+          <field name="avatar" widget="image" class="avatar"/>
           <field name="tarea"/>
           <field name="prioridad"/>
           <field name="urgente"/>
@@ -40,7 +41,9 @@
     <menuitem name="Groups" id="lista_tareas.menu_2" parent="lista_tareas.menu_root"/>
     <menuitem name="links" id="lista_tareas.menu_3" parent="lista_tareas.menu_root"/>
 
-
+  <!--new Categorys-->
+  <menuitem name="Local" id="lista_tareas.menu_4_list" parent="lista_tareas.menu_root"
+              action="lista_tareas.action_window"/>
 
     <!-- actions -->
 
