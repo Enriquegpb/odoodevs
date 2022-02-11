@@ -37,10 +37,19 @@
     <!-- menu categories -->
 
     <menuitem name="Users" id="lista_tareas.menu_1" parent="lista_tareas.menu_root"/>
+    <menuitem name="Groups" id="lista_tareas.menu_2" parent="lista_tareas.menu_root"/>
+    <menuitem name="links" id="lista_tareas.menu_3" parent="lista_tareas.menu_root"/>
+
+
 
     <!-- actions -->
 
     <menuitem name="Mostrar lista" id="lista_tareas.menu_1_list" parent="lista_tareas.menu_1"
+              action="lista_tareas.action_window"/>
+
+              <menuitem name="Mostrar grupos" id="lista_tareas.menu_2_list" parent="lista_tareas.menu_2"
+              action="lista_tareas.action_window"/>
+              <menuitem name="Mostrar LINKS" id="lista_tareas.menu_3_list" parent="lista_tareas.menu_3"
               action="lista_tareas.action_window"/>
 
   </data>
