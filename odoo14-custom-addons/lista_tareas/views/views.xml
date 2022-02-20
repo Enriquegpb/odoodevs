@@ -1,5 +1,6 @@
 <odoo>
   <data>
+
     <!-- explicit list view definition -->
 
     <!-- Definimos como es la vista explicita de la litas-->
@@ -13,10 +14,11 @@
           <field name="prioridad" widget="percentpie"/>
           <field name="urgente"/>
           <field name="realizada"/>
+          <field name="fecha" widget="date_time"/>
+          <field name="progreso"/>
         </tree>
       </field>
     </record>
-
 
     <!-- actions opening views on models -->
     <!-- Acciones al abrir las vistas en los modelos 
