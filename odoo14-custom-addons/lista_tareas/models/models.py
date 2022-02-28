@@ -44,6 +44,9 @@ class lista_tareas(models.Model):
                 record.urgente = True
             else:
                 record.urgente = False
+
+
+    
     
     
     
