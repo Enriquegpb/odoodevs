@@ -31,6 +31,7 @@ class lista_tareas(models.Model):
     )
     
     
+    
 
 
     #Este computo depende de la variable prioridad
